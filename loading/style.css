@@ -1,0 +1,11 @@
+body{
+    margin:0;
+}
+.loadingScreen{
+    width: 414px;
+    height: 736px;
+    background-image: url(./solen-feyissa-54xmXW7tJzo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
