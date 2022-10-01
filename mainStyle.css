@@ -39,7 +39,7 @@ color: #FFFFFF;
 .plusButton{
     /* Incr Group */
 
-
+cursor: pointer;
 position: absolute;
 width: 79px;
 height: 79px;
@@ -61,6 +61,7 @@ filter: invert(70%) sepia(75%) saturate(2601%) hue-rotate(109deg) brightness(101
 
 .minusButton {
     /* Decr Group */
+    cursor: pointer;
 
 box-sizing: border-box;
 background: rgba(0, 0, 0, 0.2);
@@ -80,3 +81,5 @@ height: 39px;
 /* color: #FF4242; */
 filter: invert(42%) sepia(97%) saturate(2343%) hue-rotate(335deg) brightness(101%) contrast(103%);
 }
+
+
