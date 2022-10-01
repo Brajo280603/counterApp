@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+.mainBG{
+    position: relative;
+width: 414px;
+height: 736px;
+
+background-image: url(./massimiliano-morosinotto-MljwsnGwdOY-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+/* background: #FFFFFF; */
+}
+.mainBG p{
+position: absolute;
+/* left: 50%;
+top: 10%;
+transform: translateX(-50%);
+color: white; */
+
+width: 190px;
+height: 50px;
+left: calc(50% - 184px/2);
+top: 188px;
+
+font-family: 'Outfit',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+
+
+}
+
+
+.plusButton{
+    /* Incr Group */
+
+
+position: absolute;
+width: 79px;
+height: 79px;
+left: 36px;
+top: 573px;
+border-radius: 50%;
+background: rgba(0, 0, 0, 0.03);
+border: 4px solid #00EA96;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.plusButton img{
+    
+width: 39px;
+height: 39px;
+filter: invert(70%) sepia(75%) saturate(2601%) hue-rotate(109deg) brightness(101%) contrast(101%);
+
+}
+
+.minusButton {
+    /* Decr Group */
+
+box-sizing: border-box;
+background: rgba(0, 0, 0, 0.2);
+border: 4px solid #FF4242;
+position: absolute;
+width: 79px;
+height: 79px;
+left: 299px;
+top: 573px;
+border-radius: 50%;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.minusButton img{
+    width: 39px;
+height: 39px;
+/* color: #FF4242; */
+filter: invert(42%) sepia(97%) saturate(2343%) hue-rotate(335deg) brightness(101%) contrast(103%);
+}
