@@ -9,3 +9,44 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+.loadingTitle{
+    /* Title */
+
+
+position: absolute;
+width: 241px;
+height: 241px;
+/* left: 181px; */
+right: -10%;
+top: 247px;
+background: #00FABE;
+mix-blend-mode: hue;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.loadingTitleText{
+
+/* The Counter */
+
+
+position: absolute;
+width: 145px;
+height: 100px;
+right: 5%;
+top: 45%;
+transform: translateY(-50%);
+
+font-family: 'Outfit',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+
+}
