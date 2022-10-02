@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./mainStyle.css">
+    <link rel="manifest" href="./manifest.json">
 
     <title>Counter app</title>
 </head>
@@ -31,5 +32,10 @@
     </div>
 
     <script src="./mainScript.js"></script>
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register("./serviceWorker.js");
+        }
+    </script>
 </body>
 </html>
